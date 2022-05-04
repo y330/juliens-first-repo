@@ -25,22 +25,64 @@ GIT: tool to sync your local coding project to a git repository. good for team w
 print("Hello")  # print some information
 
 
+
+
 """Lesson 2: Variables"""
 greeting = "Hello World"
 print(message)
 
 
+
+
 """Lesson 3: Different Types of Information"""
-print("Hello World")  # print text information of type 'string', which is any information enclosed by quotation marks
-print(3) # print number information of type integer: -infinity to +infinity
-print(3.2)  # print number information of type float: same as integer, but has a decimal point
+
+string = "Hello World"  # store text information of type String (str). if "4" is a string and 4 is not, what do you think makes information a string
+
+integer = 3  # store number information of type Integer (int)
+
+floating_pt_number = 3.0 # Floating-point Number (float). How is this type different from the type int? answer: 
 
 
 
-"""Lesson 4: User Input"""
-name = input("What is your name?")  # shows a prompt in the terminal where you can type in a string. even if you type in a number, it will still be a string. example: typing in 4 will give you "4"
+
+
+"""Lesson 4: Comparing Information: Booleans"""
+a = 1
+b = 2
+### Comparisions------------
+a == b  #|#     a is equal to b                 >> False
+a <= b  #|#     a is less than or equal to b    >> True
+a <  b  #|#     a is less than b                >> True
+a >= b  #|#     a is greater than or equal to b >> False
+a >  b  #|#     a is greater than b             >> False
+
+
+
+"""Lesson 5: Math"""
+### Predict what each line will output before running
+print(6 * 2)  # 6 x 2 == ?
+print(6 + 2)  # 6 + 2 == ?
+print(6 - 2)  # 6 - 2 == ?
+print(6 / 2)  # 6 ÷ 2 == ?
+print(6 ** 2) # 6²    == ?
+
+# you can only do operations on numbers, not strings. you can do addition on strings tho.
+# you can make the math more complicated as well
+
+
+
+
+
+"""Lesson 6: User Input"""
+### you can use the terminal as a text box in python. this can be used to make interactive programs.
+name = input("What is your name?")  # shows a prompt in the terminal where you can type in a string. 
+                                    # even if you type in a number, it will still be a string. 
+                                    # example: typing in 4 will give you "4"
+                                    # 
 greeting = "Hello" + name  #  guess what information is now in the variable greeting?
 print(greeting)  #  print the concatonated string.
+
+#Task: create a program that asks the user for 
 
 
 
