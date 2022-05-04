@@ -59,7 +59,9 @@ a >  b  #|#     a is greater than b             >> False
 
 
 """Lesson 5: Math"""
-### Predict what each line will output before running
+expression = 4 + 2 # is an expression
+
+### Predict what each expression will output before running
 print(6 * 2)  # 6 x 2 == ?
 print(6 + 2)  # 6 + 2 == ?
 print(6 - 2)  # 6 - 2 == ?
@@ -67,7 +69,10 @@ print(6 / 2)  # 6 ÷ 2 == ?
 print(6 ** 2) # 6²    == ?
 
 # you can only do operations on numbers, not strings. you can do addition on strings tho.
-# you can make the math more complicated as well
+# you can make the math more complicated as well, with variables
+exoression
+a = 40
+harder_expression = 240 / 2 - (a * 2)
 
 
 
@@ -82,7 +87,8 @@ name = input("What is your name?")  # shows a prompt in the terminal where you c
 greeting = "Hello" + name  #  guess what information is now in the variable greeting?
 print(greeting)  #  print the concatonated string.
 
-#Task: create a program that asks the user for 
+### CHALLENGE: create a program that asks the user for 4 marks out of 100 and then calculate the avaerage:
+
 
 
 
