@@ -1,7 +1,8 @@
-# filename: hello_world.py
+# filename: curriculum.py
 # author(s): Yonah Aviv
 # date modified: 05/04/2022
 # date created: 05/04/2022
+# status: IN PROGRESS
 
 """Important Words/Phrases"""
 """
