@@ -96,7 +96,7 @@ a_isLessOrEqualTo_b    = a <= b  # _____
 a_isGreaterThan_b      = a > b   # _____
 a_isGreaterOrEqualTo_b = a >= b  # _____
 ## DO not run the following before you fill in the blanks 
-print(f"a == b is {a_equalTo_b} \n
+print(f"a == b is {a_equalTo_b} \n")
 
 
 """Lesson 5: Math: Evaluating Expressions"""
