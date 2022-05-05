@@ -33,7 +33,7 @@ greeting = "Hello World"
 print(message)
 
 string_with_newline = "hello, \n my name is Yonah" # use \n to denote a new line in your string
-print(multi_line_string
+print(string_with_newline)
 # reminder: to output information to the console: type print, followed by brackets enclosing the text you want to print.
 # remember: surround the text with quotes, otherwise it will think you want to print an undefined variables
 
