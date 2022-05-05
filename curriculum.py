@@ -53,7 +53,7 @@ line_2 = ""
 line_3 = "Nice to meet you to!"
 line_4 = ""
 line_5 = "Regards,"
-line_6 = "Yonah
+line_6 = "Yonah"
 print(line_1)
 print(line_2)
 print(line_3)
