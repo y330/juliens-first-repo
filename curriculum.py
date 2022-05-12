@@ -132,8 +132,17 @@ name = input("What is your name?")  # shows a prompt in the terminal where you c
 greeting = "Hello" + name  #  guess what string greeting now holds?
 print(greeting)  #  print the concatonated string.
 
-### CHALLENGE: create a program that asks the user for 4 marks out of 100 and then calculate the avaerage:
 
+
+# ******************************************************************************************************************************888888
+## CHALLENGE: create a program that asks the user for 4 marks out of 100 and then calculate the avaerage:
+
+# 1. create 4 variables that ask the user to input a int mark out of 100 (ex. 67)
+# 2. create another variable that hold the calculations for finding the average of the 4 marks
+# hint: to calculate average, add all items, and divide by number of items
+# final step: print it in a full sentence using an f-string
+
+mark1 = input("Enter the first mark")
 
 
 
